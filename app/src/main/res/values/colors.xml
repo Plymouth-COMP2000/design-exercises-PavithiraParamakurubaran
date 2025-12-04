@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#380C72</color>
+    <color name="purple_variant">#2E0958</color>
+    <color name="purple_light">#6B3FB3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#F7F7FB</color>
+    <color name="text_primary">#1F1F1F</color>
+    <color name="text_secondary">#666666</color>
+    <color name="divider">#E5E5EA</color>
+    <color name="success">#2E9B56</color>
+    <color name="danger">#E04E4E</color>
+    <color name="light_gray">#F6F6F6</color>
+    <color name="gray">#F3F3F3</color>
+    <color name="black">#000000</color>
+</resources>

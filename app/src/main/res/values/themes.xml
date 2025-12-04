@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.DineVista" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Set Poppins as global app font -->
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- For Material components -->
+        <item name="textAppearanceHeadlineLarge">@style/PoppinsText</item>
+        <item name="textAppearanceHeadlineMedium">@style/PoppinsText</item>
+        <item name="textAppearanceHeadlineSmall">@style/PoppinsText</item>
+
+        <item name="textAppearanceBodyLarge">@style/PoppinsText</item>
+        <item name="textAppearanceBodyMedium">@style/PoppinsText</item>
+        <item name="textAppearanceBodySmall">@style/PoppinsText</item>
+
+    </style>
+
+    <style name="Theme.DineVista" parent="Base.Theme.DineVista" />
+
+    <!-- Apply Poppins to all text appearances -->
+    <style name="PoppinsText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="BottomNav.NoIndicator" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemBackground">@android:color/transparent</item>
+        <item name="itemIconTint">@color/text_primary</item>
+        <item name="itemTextColor">@color/text_primary</item>
+    </style>
+
+
+
+
+</resources>
