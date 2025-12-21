@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779020230824",
+    "project_id": "dinevistaapp",
+    "storage_bucket": "dinevistaapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779020230824:android:665d5cf4688008131e229d",
+        "android_client_info": {
+          "package_name": "com.pavithira.dinevista"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBy5tZnHbEiIyu-9dvOdqDIxsJHQuWYgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

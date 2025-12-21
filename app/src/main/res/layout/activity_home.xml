@@ -127,7 +127,7 @@
                         android:layout_height="20dp"
                         android:src="@drawable/ic_search"/>
 
-                    <EditText
+                    <AutoCompleteTextView
                         android:id="@+id/etSearch"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -136,7 +136,11 @@
                         android:paddingStart="8dp"
                         android:background="@android:color/transparent"
                         android:textColor="@color/text_primary"
-                        android:textColorHint="#888" />
+                        android:textColorHint="#888"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text" />
+
+
 
                     <ImageView
                         android:layout_width="20dp"
@@ -290,7 +294,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rice & Noodles"
+                            android:text="Rice &amp; Noodles"
                             android:textColor="@color/text_primary"
                             android:textSize="12sp"
                             android:layout_marginTop="6dp" />

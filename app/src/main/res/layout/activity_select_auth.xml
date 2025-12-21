@@ -40,7 +40,7 @@
         android:id="@+id/mainImage"
         android:layout_width="0dp"
         android:layout_height="450dp"
-        android:src="@drawable/Dinevista"
+        android:src="@drawable/dinevista"
         android:scaleType="centerCrop"
         app:layout_constraintTop_toBottomOf="@id/tvTitle"
         app:layout_constraintStart_toStartOf="parent"

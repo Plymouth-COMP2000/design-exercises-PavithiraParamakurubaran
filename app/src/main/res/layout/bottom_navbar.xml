@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/bottomNav"
     android:layout_width="match_parent"
-    android:layout_height="70dp"
+    android:layout_height="88dp"
     android:background="@color/white"
     style="@style/BottomNav.NoIndicator"
     app:menu="@menu/bottom_nav_menu"
-
     app:itemIconTint="@color/text_primary"
     app:itemTextColor="@color/text_primary"
-
-    app:itemActiveBackgroundColor="@android:color/transparent"
     app:itemRippleColor="@android:color/transparent"
-
     app:labelVisibilityMode="labeled"
-    app:itemIconSize="25dp"/>
+    app:itemHorizontalTranslationEnabled="false"
+    app:itemIconSize="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>

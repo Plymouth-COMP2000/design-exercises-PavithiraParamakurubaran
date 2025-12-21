@@ -3,36 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingTop="12dp"
-    android:paddingBottom="12dp">
+    android:paddingVertical="12dp">
 
     <!-- ITEM NAME -->
     <TextView
-        android:id="@+id/tvItemName"
-        android:text="Lorem Ipsum"
+        android:id="@+id/txtItemName"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
         android:textSize="14sp"
-        android:textColor="#333333" />
+        android:textColor="#333"
+        android:layout_height="wrap_content" />
 
-    <!-- QTY LABEL -->
-    <TextView
-        android:text="1"
-        android:layout_width="30dp"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:textColor="#333" />
+
 
     <!-- PRICE -->
     <TextView
-        android:text="RM 0.00"
+        android:id="@+id/txtPrice"
         android:layout_width="70dp"
         android:gravity="center"
-        android:layout_height="wrap_content"
-        android:textColor="#333" />
+        android:text="RM 0.00"
+        android:layout_height="wrap_content" />
 
-    <!-- ADD/REMOVE CONTROLS -->
+    <!-- ADD / REMOVE -->
     <LinearLayout
         android:orientation="horizontal"
         android:gravity="center"
@@ -43,23 +35,21 @@
             android:id="@+id/btnMinus"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:scaleType="centerInside"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_minus_box" />
 
+        <!-- QTY -->
         <TextView
-            android:id="@+id/tvQty"
-            android:text="1"
-            android:layout_width="28dp"
-            android:layout_height="wrap_content"
+            android:id="@+id/txtQty"
+            android:layout_width="30dp"
             android:gravity="center"
-            android:textColor="#000" />
+            android:text="1"
+            android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/btnPlus"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:scaleType="centerInside"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_add_box" />
     </LinearLayout>

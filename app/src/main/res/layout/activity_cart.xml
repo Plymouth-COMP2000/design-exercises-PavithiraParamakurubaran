@@ -89,6 +89,7 @@
                         android:layout_height="wrap_content" />
 
                     <EditText
+                        android:id="@+id/etFullName"
                         android:layout_marginTop="6dp"
                         android:hint="Enter your Full Name"
                         android:padding="12dp"
@@ -103,6 +104,7 @@
                         android:layout_height="wrap_content" />
 
                     <EditText
+                        android:id="@+id/etEmail"
                         android:layout_marginTop="6dp"
                         android:hint="Enter your Email Address"
                         android:padding="12dp"
@@ -138,6 +140,7 @@
                             android:layout_marginStart="6dp" />
 
                         <EditText
+                            android:id="@+id/etPhone"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -153,7 +156,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
-                    <<RelativeLayout
+                    <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="6dp"
@@ -202,6 +205,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/txtDate"
                             android:text="Pick a date"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -230,6 +234,7 @@
                         android:layout_height="wrap_content">
 
                         <TextView
+                            android:id="@+id/txtTime"
                             android:text="Select time"
                             android:layout_width="0dp"
                             android:layout_weight="1"
@@ -249,6 +254,7 @@
                         android:layout_height="wrap_content" />
 
                     <EditText
+                        android:id="@+id/etSpecialRequest"
                         android:layout_marginTop="6dp"
                         android:minHeight="120dp"
                         android:gravity="top"
@@ -320,16 +326,19 @@
                             android:layout_height="wrap_content" />
                     </LinearLayout>
 
-                    <View
+                    <LinearLayout
+                        android:id="@+id/cartItemsContainer"
                         android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="#E0E0E0"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
                         android:layout_marginTop="16dp"
-                        android:layout_marginBottom="16dp"/>
-                    <!-- Example cart item (repeat as needed) -->
-                    <include layout="@layout/row_cart_item" />
+                        android:layout_marginBottom="16dp">
+                    </LinearLayout>
+
+
 
                     <TextView
+                        android:id="@+id/txtSubtotal"
                         android:text="Subtotal      RM 0.00"
                         android:textStyle="bold"
                         android:layout_marginTop="16dp"
@@ -361,13 +370,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
-                    <LinearLayout
+                    <RadioGroup
+                        android:id="@+id/paymentGroup"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginTop="16dp">
+                        android:orientation="vertical">
 
-                        <!-- GOOGLE PAY -->
+                    <!-- GOOGLE PAY -->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
@@ -481,8 +490,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content" />
                         </LinearLayout>
-
-                    </LinearLayout>
+                    </RadioGroup>
 
 
 
@@ -507,10 +515,12 @@
                     </LinearLayout>
 
                     <Button
+                        android:id="@+id/btnProceed"
                         android:layout_marginTop="20dp"
                         android:text="Proceed"
                         android:textStyle="bold"
                         android:textSize="20sp"
+                        android:backgroundTint="#380C72"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
                 </LinearLayout>

@@ -316,7 +316,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:gravity="center"
-        android:background="@drawable/Dinevista"
+        android:background="@drawable/dinevista"
         android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
